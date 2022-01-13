@@ -30,3 +30,12 @@ Then running the container with x display configured
 docker run --gpus device=0 -it --rm -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY -w /opt/nvidia/deepstream/deepstream/samples/configs/deepstream-app nvcr.io/nvidia/deepstream:6.0-devel deepstream-app -c source4_1080p_dec_infer-resnet_tracker_sgie_tiled_display_int8.txt
 ```
 
+
+## Running Graph composer
+Not yet tested.
+```
+docker pull nvcr.io/nvidia/deepstream:6.0-devel
+xhost +
+docker run -it --entrypoint /bin/bash --gpus all --rm --network=host -e DISPLAY=:0 -v /tmp/.X11-unix/:/tmp/.X11-unix --privileged -v /var/run/docker.sock:/var/run/docker.sock nvcr.io/nvidia/deepstream:6.0-devel
+composer
+```
