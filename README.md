@@ -2,8 +2,8 @@
 Ryan's collection of resources for building an running deepstream applications. These tools are not intended to replace <a href="https://docs.nvidia.com/metropolis/deepstream/dev-guide/">the Offical NVIDIA Deepstream documentiation</a> but rather to aid in setting up a demo system as fast as possible without the need to understand the underlying system components.
 
 I've included several methods to get up and running on NVIDIA deepstream.
-<li>Automated Script for running Deepstream inside Docker.</li>
-<li>Guided instruction for running Deepstream inside Docker.</li>
+<li><a href="https://github.com/RyanAtNVIDIA/deepstream-fun/blob/main/initial-setup.sh">Automated Script for preparing a system to run Deepstream inside Docker.</a></li>
+<li>Guided instruction for preparing a system to run Deepstream inside Docker.</li>
 <li>TODO: Automated scripts for running Deepstream on bare metal.</li>
 <li>TODO: Guided instructions for running Deepstream on bare metal.</li>
 
