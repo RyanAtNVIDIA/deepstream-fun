@@ -1,13 +1,19 @@
 # deepstream-fun
-Ryan's collection of resources for building an running deepstream applications
+Ryan's collection of resources for building an running deepstream applications. These tools are not intended to replace <a href="https://docs.nvidia.com/metropolis/deepstream/dev-guide/">the Offical NVIDIA Deepstream documentiation</a> but rather to aid in setting up a demo system as fast as possible without the need to understand the underlying system components.
+
+I've included several methods to get up and running on NVIDIA deepstream.
+<li>Automated Script for running Deepstream inside Docker.</li>
+<li>Guided instruction for running Deepstream inside Docker.</li>
+<li>TODO: Automated scripts for running Deepstream on bare metal.</li>
+<li>TODO: Guided instructions for running Deepstream on bare metal.</li>
+
+As of now, these scripts an instructions are using Ubuntu 18.04. If there is demand for other variants please reach out to me at rsimpson@nvidia.com.
 
 ## Pre-reqs
-Although this list might not be the exclusive configuration requirements it is what I have tests.
-<li>Ubuntu 18.04</li>
-<li>NVIDIA driver 495.46</li>
-<li>CUDA version 11.5</li>
-<li>Docker version 20.10.12</li>
-<li>NVIDIA developer account with NGC login configured for docker.</li>
+Starting with a fresh install of Ubuntu 18.04.
+
+
+
 
 ## Verification that everything is ready
 To verify the system should be able to run the deepstream app container, run the following:
