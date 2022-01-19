@@ -9,9 +9,9 @@ DEEPSTREAM_WORKING_DIR_CMD="-w /opt/nvidia/deepstream/deepstream/samples/configs
 DEEPSTREAM_APP_CMD="deepstream-app -c"
 DOCKER_RUN_CMD="docker run --gpus $DEEPSTREAM_DEVICES -it --rm $DEEPSTREAM_DISPLAY_CMD $DEEPSTREAM_WORKING_DIR_CMD $DEEPSTREAM_DOCKER_IMAGE"
 
-DEMO_1_CONFIG="source30_1080p_dec_infer-resnet_tiled_display_int8.txt"
+DEMO_1_CONFIG=source30_1080p_dec_infer-resnet_tiled_display_int8.txt
 DEMO_2_CONFIG=source30_1080p_dec_preprocess_infer-resnet_tiled_display_int8.txt
-DEMO_3_CONFIG="source4_1080p_dec_infer-resnet_tracker_sgie_tiled_display_int8.txt"
+DEMO_3_CONFIG=source4_1080p_dec_infer-resnet_tracker_sgie_tiled_display_int8.txt
 
 # Demos not yet tested
 #source1_usb_dec_infer_resnet_int8.txt
